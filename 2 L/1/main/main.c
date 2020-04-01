@@ -47,7 +47,7 @@ int main(int argc, const char * argv[]) {
                     printf("Радиус = %.2Lf, Площадь = %.2Lf\n", r, PI * sqr(r) * a / 360);
                 }
                 else if (type_a == 2) {
-                    printf("Введите угол в градусах (0 <= a <= 2 * PI): \n");
+                    printf("Введите угол в радианах (0 <= a <= 2 * PI): \n");
                     scanf("%d", &a);
                     if (a < 0 || a > 2 * PI) {
                         scanf("%d", &a);
